@@ -1,9 +1,22 @@
-.DS_Store
-.terraform/
+# Terraform
+**/.terraform/*
 *.tfstate
 *.tfstate.*
+*.tfplan
 *.tfvars
 *.tfvars.json
 crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials
 .env
 .env.*
+*.pem
+*.key
+
+# macOS
+.DS_Store
